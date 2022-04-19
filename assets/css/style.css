@@ -385,10 +385,14 @@ footer .wt_text {
     height: 40px;
     line-height: 40px;
     margin-top: 30px;
-    color: #5c5c5c;
     font-size: 11px;
     border-top: 1px solid #2c2c2c;
     text-align: center;
+}
+
+.footer_copy a{
+    text-decoration: none;
+    color: #5c5c5c;
 }
 
 .footer_table {
@@ -552,6 +556,11 @@ footer .wt_text {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    }
+
+    nav .active a {
+        background-color: #FFF;
+        color: #727272;
     }
 
     .banner_headline{
